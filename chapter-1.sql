@@ -1,5 +1,6 @@
-create database analysis;
-create table teachers (
+CREATE DATABASE analysis;
+
+CREATE TABLE teachers (
   id bigserial,
   first_name VARCHAR(25),
   last_name VARCHAR(50),
@@ -7,6 +8,7 @@ create table teachers (
   hire_date DATE,
   salary NUMERIC
 );
+
 INSERT INTO teachers (first_name, last_name, school, hire_date, salary)
 VALUES (
     'Janet',
